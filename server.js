@@ -2,10 +2,6 @@ var express = require('express');
 var app = express();
 var port = process.env.PORT || 8080;
 
-app.get('/', function(req,res) {
-    res.end("Hello Stranger!");
-});
-
 app.get('*', function(req,res) {
     var ip = req.headers['x-forwarded-for'];
     var lang = req.headers['accept-language'];
