@@ -7,9 +7,18 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheSeTh/whoamifcc.git"
+  },
   "author": "SilentDev",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheSeTh/whoamifcc/issues"
+  },
+  "homepage": "https://github.com/TheSeTh/whoamifcc#readme"
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "pug": "~0.1.0"
   }
 }
